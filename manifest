@@ -16,8 +16,8 @@ package_sets:
 # imported by other rock sets.
 layout:
    - rock.core
-   - e2calib
-   - eds
+   # - e2calib
+   # - eds
 
 # Ignoring packages: same principle than package exclusion, but this time the
 # packages are considered to be installed and up-to-date. This is useful if you
@@ -28,5 +28,6 @@ layout:
 #
 ignored_packages:
    - tools/pocolog2msgpack
+   - tools/torch
 
 
